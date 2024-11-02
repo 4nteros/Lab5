@@ -62,6 +62,6 @@ int main()
       }
       
     }
-    std::cout << "The maximum digit in the number is: " << max_digit_in_N << std::endl;
+    std::cout << "The maximum digit in the number is: " << max_digit_in_N << std::endl; 
     
 }
