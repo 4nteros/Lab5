@@ -4,10 +4,10 @@ int main()
 {
     
     long long multi = 1;
-    int n = 0;
     int min = 0;
     bool first = true;
     int min_index = 0;
+    int n = 0;
     std::cout << "Enter the number of sequence members: "; 
     std::cin >> n;
     for (int i = 0; i<n; i++)
@@ -16,7 +16,7 @@ int main()
           std::cout << "Enter sequence member: "; 
           std::cin >> x;
 
-          if (x%10==2 || x%10==4)
+          if ((x%10 == 2) || (x%10 == 4))
           {
             multi *= x;
             if (first)
