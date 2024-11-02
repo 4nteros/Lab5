@@ -2,7 +2,7 @@
 
 int main()
 {
-    
+ /* 
     long long multi = 1;
     int min = 0;
     bool first = true;
@@ -41,15 +41,15 @@ int main()
     std::cout << "The value of the minimum sequence term:           " << min << std::endl;
     std::cout << "Number of the first minimal term of the sequence: " << min_index + 1 << std::endl;
 
-
+*/
 
 
 
 
     
-    /*
+   
     int N = 0;
-    int max_num_in_N = 0;
+    int max_digit_in_N = 0;
     std::cout << "Enter N: ";
     std::cin >> N;
     for (int i = 0; i<N; i++)
@@ -57,12 +57,12 @@ int main()
     {
       int digit = N%10;
       N /= 10;
-      if(max_num_in_N < digit)
+      if(max_digit_in_N < digit)
       {
-        max_num_in_N = digit;
+        max_digit_in_N = digit;
       }
       
     }
-    std::cout << max_num_in_N << std::endl;
-    */
+    std::cout << "The maximum digit in the number is: " << max_digit_in_N << std::endl;
+    
 }
