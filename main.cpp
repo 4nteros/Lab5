@@ -52,7 +52,6 @@ int main()
     int max_digit_in_N = 0;
     std::cout << "Enter N: ";
     std::cin >> N;
-    for (int i = 0; i<N; i++)
     while (N>0)
     {
       int digit = N%10;
